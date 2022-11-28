@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './Components/Navbar'
 import Home from './pages/Home';
 import {Router,Routes, Route, BrowserRouter} from 'react-router-dom'
-import Add from './pages/Admin/Add';
+import AddUser from './pages/Admin/AddUser';
 import Employees from './pages/Admin/Employees';
 
 
@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/employees:id" element={<Employees/>}/>
-      <Route path="/add-profile" element={<Add/>}/>
+      <Route path="/add-profile" element={<AddUser/>}/>
 
 
     </Routes>
