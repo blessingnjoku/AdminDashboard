@@ -9,7 +9,7 @@ const Employees=() =>{
   const getUser = async()=>{
      await axios.get(`http://localhost:3003/task/${id}`)
      .then((response )=>{
-         setUsers(response.data);
+         setUsers(response.data.reverse());
          console.log(users)
      })
  
@@ -18,7 +18,7 @@ const Employees=() =>{
      useEffect(()=>{
          getUser();
          
-     },[])
+     },[]);
 const {id} = useParams()
 
   return (

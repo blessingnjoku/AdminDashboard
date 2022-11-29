@@ -1,58 +1,54 @@
-
 {
-  "task":[
-   {
-       "id":1,
-       "name":"Blessing Njoku",
-       "details":"i need to build a house",
-       "email":"blessingnjoku505@gmail.com",
-       "address":{
-           "street":"ladiak",
-           "state":"lagos",
-           "country":"nigeria"
-
-       }
-   },
-   {
-       "id":2,
-       "name":"charles oko",
-       "details":"be you",
-       "email":"blessingnjoku505@gmail.com",
-       "address":{
-           "street":"oshodi",
-           "state":"ibadan",
-           "country":"Ghana"
-
-       }
-
-   },
-   {
-       "id":3,
-       "name":"joy mba",
-       "details":"be the best",
-       "email":"joy@gmail.com",
-       "address":{
-           "street":"crossroad",
-           "state":"newton",
-           "country":"Uk"
-
-       }
-
-   },
-   {
-       "id":3,
-       "name":"victoria",
-       "details":"do good",
-       "email":"victoria@gmail.com",
-       "address":{
-           "street":"boha",
-           "state":"toronto",
-           "country":"canada"
-
-       }
-
-   }
-
-  
+  "task": [
+    {
+      "id": 1,
+      "name": "Blessing Njoku",
+      "details": "i need to build a house",
+      "email": "blessingnjoku505@gmail.com",
+      "address": {
+        "street": "ladiak",
+        "state": "lagos",
+        "country": "nigeria"
+      }
+    },
+    {
+      "id": 2,
+      "name": "charles oko",
+      "details": "be you",
+      "email": "blessingnjoku505@gmail.com",
+      "address": {
+        "street": "oshodi",
+        "state": "ibadan",
+        "country": "Ghana"
+      }
+    },
+    {
+      "id": 3,
+      "name": "joy mba",
+      "details": "be the best",
+      "email": "joy@gmail.com",
+      "address": {
+        "street": "crossroad",
+        "state": "newton",
+        "country": "Uk"
+      }
+    },
+    {
+      "id": 3,
+      "name": "victoria",
+      "details": "do good",
+      "email": "victoria@gmail.com",
+      "address": {
+        "street": "boha",
+        "state": "toronto",
+        "country": "canada"
+      }
+    },
+    {
+      "name": "Queen",
+      "email": "queen@gmail.com",
+      "details": "0900224248",
+      "id": 4
+    }
   ]
 }

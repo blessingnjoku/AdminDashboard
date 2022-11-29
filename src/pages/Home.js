@@ -9,7 +9,7 @@ function Home() {
  const getInfro = async()=>{
     await axios.get("http://localhost:3003/task")
     .then((response )=>{
-        setPersons(response.data);
+        setPersons(response.data.reverse());
         console.log(persons)
     })
 
