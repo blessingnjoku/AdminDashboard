@@ -16,11 +16,19 @@ function Home() {
  }
 
     useEffect(()=>{
-        getInfro();
-       
-       
+      
+            getInfro();
        
     },[])
+
+    function handleDelete(id){
+        axios.delete(`http://localhost:3003/task/${id}`)
+        .then(
+          
+            getInfro()
+
+        )
+    }
 
 
   return (
@@ -52,7 +60,7 @@ function Home() {
                 <td>
                     <Link to={`/employees${val.id}`} className='btn btn text-success m-4'>view</Link>
                     <Link  className='btn text-primary'>edit</Link>
-                    <Link className='btn text-danger'>delete</Link>
+                    <Link className='btn text-danger'onClick={()=>handleDelete(val.id)}>delete</Link>
 
 
                 </td>

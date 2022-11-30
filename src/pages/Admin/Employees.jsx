@@ -9,7 +9,7 @@ const Employees=() =>{
   const getUser = async()=>{
      await axios.get(`http://localhost:3003/task/${id}`)
      .then((response )=>{
-         setUsers(response.data.reverse());
+         setUsers(response.data);
          console.log(users)
      })
  
