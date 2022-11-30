@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import {Router,Routes, Route, BrowserRouter} from 'react-router-dom'
 import AddUser from './pages/Admin/AddUser';
 import Employees from './pages/Admin/Employees';
+import Edit from './pages/Admin/Edit';
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/employees:id" element={<Employees/>}/>
       <Route path="/add-profile" element={<AddUser/>}/>
+      <Route path="/edit/:id" element={<Edit/>}/>
+
 
 
     </Routes>

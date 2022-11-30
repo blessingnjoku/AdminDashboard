@@ -35,7 +35,7 @@ function Home() {
     <div>
     {/* <NavBar/> */}
     <div className='container'>
-    <h1>Main page</h1>
+    <h1>Admin Dashboard</h1>
     <table border={1} className='p-2 w-100 overflow-hidden mt-8'>
     <thead className=' bg-primary text-light'>
     <tr >
@@ -59,7 +59,7 @@ function Home() {
               
                 <td>
                     <Link to={`/employees${val.id}`} className='btn btn text-success m-4'>view</Link>
-                    <Link  className='btn text-primary'>edit</Link>
+                    <Link to={`/edit/${val.id}`}  className='btn text-primary'>edit</Link>
                     <Link className='btn text-danger'onClick={()=>handleDelete(val.id)}>delete</Link>
 
 

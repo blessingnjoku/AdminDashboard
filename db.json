@@ -1,16 +1,22 @@
 {
   "task": [
     {
-      "name": "blessing",
-      "email": "blessing@gmail.com",
-      "details": "coding",
-      "id": 1
-    },
-    {
-      "name": "veronica",
+      "name": "rose",
       "email": "vero@gmail.com",
       "details": "cooking",
       "id": 2
+    },
+    {
+      "name": "tech",
+      "email": "tech@gmail.com",
+      "details": "programming",
+      "id": 3
+    },
+    {
+      "name": "Blessing nj",
+      "email": "blessingnj@gmail.com",
+      "details": "tech",
+      "id": 4
     }
   ]
 }

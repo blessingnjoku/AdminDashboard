@@ -1,5 +1,5 @@
 import React,{useState,useEffect}  from 'react'
-import { useParams}from 'react-router-dom';
+import { Link, useParams}from 'react-router-dom';
 import axios from 'axios';
 
 
@@ -46,6 +46,8 @@ const {id} = useParams()
 </>
 
     )}
+    
+    <Link to="/"><h3>Back to Home</h3></Link>
     </div>
   )
 }
